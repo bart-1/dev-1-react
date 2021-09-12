@@ -18,9 +18,10 @@
     animation-duration: 150s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    overflow: initial;
-
+    transform-origin: 50% 50%;
+    
 }
+
 
 .circleMenuMid {
     max-width: 60vh;
@@ -31,8 +32,7 @@
     animation-duration: 70s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    overflow: initial;
-
+    transform-origin: 50% 50%;
 }
 
 .circleMenuSmall {
@@ -41,7 +41,6 @@
     max-width: 60vh;
     height: 70vh;
     margin: auto;
-    overflow: initial;
 }
 
 
@@ -61,7 +60,7 @@
 }
 
 .circleMenuRings {
-    fill: none;
+    fill: black;
     stroke: #3e3e3e;
     stroke-width: 50vh;
 }
