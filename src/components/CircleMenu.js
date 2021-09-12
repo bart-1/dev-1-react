@@ -3,7 +3,7 @@ import './CircleMenu.css';
 const CircleMenu = (props) => {
     return (
         <div className="container" onMouseOver={props.mouseOver} onMouseLeave={props.mouseLeave}>
-           
+
             <svg
                 version="1.1"
                 viewBox="0 0 80529.2 80529.2"
@@ -13,7 +13,7 @@ const CircleMenu = (props) => {
             >
                 <g>
 
-                   
+
 
                     <g id="largeCircleMenu">
                         <g className="circleBtn circleMenuBg" onClick={props.click}>
@@ -68,7 +68,7 @@ const CircleMenu = (props) => {
                         </g>
                     </g>
 
-                    
+
                 </g>
             </svg>
             <svg
