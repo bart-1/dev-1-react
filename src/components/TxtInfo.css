@@ -1,0 +1,13 @@
+.infoBox {
+    max-width: 40vh;
+    margin: -3vh auto;
+    padding: 2vh;
+    /* position: absolute; */
+    border: 0.2vh solid #4D4D4D;
+    ;
+    border-radius: 1vh;
+    background-color: rgb(0, 0, 0, 0.4);
+
+    color: #4D4D4D;
+    font-size: 2vh;
+}

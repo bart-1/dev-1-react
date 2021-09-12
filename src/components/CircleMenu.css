@@ -1,0 +1,81 @@
+.container {
+    max-width: 60vh;
+    padding: 0;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    min-height: fit-content;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+.circleMenuLarge {
+    max-width: 60vh;
+    height: 70vh;
+    position: absolute;
+    margin: auto;
+    animation-name: rotate;
+    animation-duration: 150s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    overflow: initial;
+
+}
+
+.circleMenuMid {
+    max-width: 60vh;
+    height: 70vh;
+    position: absolute;
+    margin: auto;
+    animation-name: rotate;
+    animation-duration: 70s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    overflow: initial;
+
+}
+
+.circleMenuSmall {
+    position: absolute;
+    margin: auto;
+    max-width: 60vh;
+    height: 70vh;
+    margin: auto;
+    overflow: initial;
+}
+
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.circleMenuBg {
+    fill: #2a2a2a;
+    cursor: pointer;
+}
+
+.circleMenuRings {
+    fill: none;
+    stroke: #3e3e3e;
+    stroke-width: 50vh;
+}
+
+.logoDev {
+    fill: #4D4D4D;
+    fill-rule: nonzero;
+}
+
+.circleMenuText {
+    fill: #4D4D4D;
+    fill-rule: nonzero;
+}
+
+.circleBtn:hover {
+    fill: rgb(1, 21, 43)
+}
